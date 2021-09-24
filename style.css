@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1550053808-52a75a05955d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1287&q=80);
+ font-family: 'Ubuntu', sans-serif;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.container {
+  background: #f5f3f4;
+  color: #14213D;
+  margin: 72px; 
+  padding: 64px;
+  box-shadow: 6px 6px 6px #e5383b;
+  border-radius: 20px;
+ 
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.perfil-foto{
+  border-radius: 72px;
+  max-height:160px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.60);
+}
+
+.titulo{
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 48px;
+  font-style: italic;
+  text-decoration: none; 
+}
+
+.titulo h1 a {
+  text-decoration: none; 
+  color: #0b090a;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  border-radius: 100px;
+  padding: 8px 16px;
+-
+  
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  background-color: rgba(0.20, 0.33, 0.61, 0.1);
+  background-blend-mode: ;
+  border-radius: 20px;
+  margin-top: 32px; 
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.30);
+}
+
+.projetos-titulo{
+ list-style: none;
+ font-weight: 700;
+ font-size: 42px;
+ align-items: left;
+}
+
+.projetos-itens{
+ list-style: none;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 48px;
+}
+
+.projetos-itens a {
+ text-decoration: none;
+ color: #0b090a;
+}
+
+.dark{
+  background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+ background-repeat: repeat;
+
+}
+.dark .titulo h1 a {
+ color: #f5f3f4;
+}
+.dark .container{
+  background: #161a1d;
+  color: #f5f3f4;
+}
+.dark .projetos{
+  background: rgba(255,255,255, 0.3);
+}
+
+.dark .tema button{
+    background: #161a1d;
+   color: #f5f3f4;
+  border: 2px solid #f5f3f4;
+}
+
+/* 
+Figma
+Google Fonts
+Coolors
+ */
